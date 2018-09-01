@@ -1,0 +1,14 @@
+program test;
+var age1 : int;
+var age2 : int;
+var total : int;
+{
+  age1 = 5;
+  age2 = 8;
+  total = (age1 + age2) * 5;
+  if (total > 18) {
+    print("Puedes pasar, tienes: ", total);
+  } else {
+    print("No puedes pasar, tienes: ", total);
+  }
+}
